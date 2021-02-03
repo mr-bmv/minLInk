@@ -1,6 +1,16 @@
+import useRoutes from './pages/routes'
+import { BrowserRouter as Router } from 'react-router-dom'
+
+import 'materialize-css'
 function App() {
+
+  const routes = useRoutes(true)
   return (
-    <div><h1>REACT</h1></div>
+    <Router>
+      <div className="container">
+        {routes}
+      </div>
+    </Router>
   )
 }
 
