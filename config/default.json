@@ -1,0 +1,4 @@
+{
+    "port": 5000,
+    "mongoUri": "mongodb+srv://bmv:ermak@cluster0.efbot.mongodb.net/app?retryWrites=true&w=majority"
+}
